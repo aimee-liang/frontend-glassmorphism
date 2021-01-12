@@ -4,21 +4,14 @@ body {
 }
 
 .header-container {
-    position: fixed;
-    margin: auto;
-    align-items: center;
-    border: 1px solid black;
+    align-items: center;    
+    border: 5px solid black;
 }
 
 .header {
-    font-size: 30px;
+    font-size: 50px;
 }
 
-.team-container{
-    display: flex;
-}
-
-.photo {
-    height: 100px;
-    width: 100px;
+.team-container {
+    display: inline;
 }
