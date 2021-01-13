@@ -1,19 +1,29 @@
 body {
     background: linear-gradient(#E1C9E3, #88498F);
     font-family: 'Karla', sans-serif;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .header-container {
-    align-items: center;    
-    border: 5px solid black;
+    align-items: center; 
+    text-align: center;   
 }
 
-.header p {
-    font-size: 500px;
+.header {
+    font-size: 75px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.photo img{
+    height: 25vh;
+    width: 18vw;
 }
 
 .team-container {
-    display: inline;
+    display: inline-block;
 }
 
 .photo {
