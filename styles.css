@@ -47,7 +47,7 @@ body {
 }
 
 .team-card {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
     height: 55vh;
     width: 20vw;
     margin-left: 5%;
@@ -55,7 +55,7 @@ body {
     text-align: center;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     background-clip: padding-box;
     backdrop-filter: blur(10px);
 }
@@ -76,10 +76,14 @@ body {
 
 .bio {
     margin-top: 10%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
     position: absolute;
     display: block;
+}
+
+.socials {
+    
 }
 
 .contact-us {
