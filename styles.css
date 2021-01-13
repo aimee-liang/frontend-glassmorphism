@@ -76,3 +76,10 @@ body {
     position: absolute;
     word-break: break-all;
 }
+
+
+.contact-us {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
