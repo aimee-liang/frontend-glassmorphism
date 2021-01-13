@@ -12,9 +12,18 @@ body {
 }
 
 .header {
-    font-size: 75px;
-    margin-top: 4%;
+    font-size: 65px;
+    margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.subheader {
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.about-paragraph {
+    font-size: 18px;
 }
 
 .photo img{
@@ -23,7 +32,13 @@ body {
 }
 
 .team-container {
-    display: inline-block;
+    display: row;
+}
+
+.team-card {
+    background-color: white;
+    height: 20vh;
+    width: 20vw;
 }
 
 .photo {
