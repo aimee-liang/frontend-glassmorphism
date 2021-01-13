@@ -12,10 +12,10 @@ body {
     margin: auto;
     padding-left: 1%;
     padding-right: 1%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 3%;
     color: #ecf0f1;
-    background: rgba(255, 255, 255 0.2); /* not currently working */
+    background: rgba(255, 255, 255 0.2);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-clip: padding-box;
@@ -42,22 +42,37 @@ body {
 .team-container {
     display: flex;
     flex-wrap: wrap;
+    height: 75vh;
 }
 
 .team-card {
     background-color: white;
-    height: auto;
+    height: 45vh;
+    width: 22vw;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
     align-items: center;
-    margin-left: 1%;
-    margin-right: 1%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-clip: padding-box;
+    backdrop-filter: blur(10px);
+}
+
+.name {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 25px;
 }
 
 .photo img{
     height: 25vh;
     width: 18vw;
-    position: absolute;
+    position: relative;
+    margin-bottom: 2%;
 }
 
 .bio {
     position: absolute;
+    word-break: break-all;
 }
