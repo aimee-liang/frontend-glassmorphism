@@ -43,15 +43,15 @@ body {
 .team-container {
     color: #ecf0f1;
     display: flex;
-    height: 75vh;
+    height: 70vh;
     align-items: center;
     justify-content: center;
 }
 
 .team-card {
-    background-color: rgba(255, 255, 255, 0.3);
-    height: 55vh;
-    width: 20vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 58vh;
+    width: 18vw;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
@@ -102,11 +102,11 @@ body {
     padding-top: 2px;
     padding-bottom: 2px;
     color: #ecf0f1;
-    background: rgba(255, 255, 255 0.2);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    background-clip: padding-box;
-    backdrop-filter: blur(10px);
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    /* background-clip: padding-box; */
+    /* backdrop-filter: blur(10px); */
     width: 25vw;
     height: auto;
 }
